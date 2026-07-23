@@ -1,0 +1,31 @@
+# Sensitive configuration files
+config.py
+client_secret_*.json
+google_token.json
+session_name.session
+
+# Log files and runtime data
+/var/log/sms_ai/
+*.log
+brlog_processed.txt
+brlog_error_flag.txt
+
+# Environment files
+.env
+*.env
+
+# Backups and temporary files
+*copy.py
+*.bak
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
