@@ -2,9 +2,9 @@ from telethon import TelegramClient
 import config
 import sys
 
-API_ID = 33876152
-API_HASH = "87a08340b095a7bfca0af3e16cd781c7"
-PHONE_NUMBER = "+916379228576"
+API_ID = xxxx
+API_HASH = "xxxxx"
+PHONE_NUMBER = "+xxxxx"
 CHAT_ID = int(config.PPMS_TELE_GROUP_ID) if hasattr(config, "PPMS_TELE_GROUP_ID") else -1002942360802
 
 async def poll_messages():
