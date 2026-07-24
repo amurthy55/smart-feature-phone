@@ -110,7 +110,6 @@ Logs are written to `/var/log/sms_ai/`:
 
 - `config.py` contains sensitive data (phone numbers, API tokens, Telegram credentials). It is excluded from version control in `.gitignore`.
 - The `reboot` command requires the running user to have passwordless `sudo` access to `/sbin/reboot`.
-- Telegram API credentials (`API_ID`, `API_HASH`, `PHONE_NUMBER`) are hard-coded in `send_motor_on.py` and `poll_telegram_brlog.py` for the Telethon user client.
 
 ## License
 
